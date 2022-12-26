@@ -1,0 +1,14 @@
+body{
+    background-color: #0a0d25;
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.person-tab{
+    background-color: #1e035e;
+    border-radius: 10px;
+    border-style: none;
+    list-style: none;
+    padding: 15px;
+    margin: 10px;
+}
