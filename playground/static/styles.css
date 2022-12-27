@@ -5,6 +5,7 @@ body{
 }
 
 .person-tab{
+    display: inline-block;
     background-color: #1e035e;
     border-radius: 10px;
     border-style: none;
