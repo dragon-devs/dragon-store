@@ -22,12 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-hf88ovdliw1$#!dqsu2j24m60%2=+frf(6&0wtkn=hrq%4sii$'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -74,15 +68,7 @@ WSGI_APPLICATION = 'drhtesting.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dragonstore',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': 'Brucelee47'
-    }
-}
+
 
 
 # Password validation
