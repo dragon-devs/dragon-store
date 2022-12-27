@@ -20,8 +20,11 @@
                 {% for employee in obj %}
                     <ul class='person-tab'>
                         <li>{{ employee.name }}</li> 
+                        <li>{{ employee.gender }}</li>    
                         <li>{{ employee.age }}</li>
-                        <li>{{ employee.salary }}</li>    
+                        <li>{{ employee.salary }}</li>
+                        <li>{{ employee.position }}</li>    
+
                     </ul>
                 {% endfor %}
             {% else %}
