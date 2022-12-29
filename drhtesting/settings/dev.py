@@ -9,5 +9,3 @@ DATABASES = {
 
     }
 }
-
-# this is 

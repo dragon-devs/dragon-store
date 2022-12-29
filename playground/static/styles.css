@@ -6,10 +6,13 @@ body{
 
 .person-tab{
     display: inline-block;
-    background-color: #1e035e;
+    background-color: #1f005b;
     border-radius: 10px;
     border-style: none;
     list-style: none;
     padding: 15px;
     margin: 10px;
+}
+li{
+    padding: 2px;
 }

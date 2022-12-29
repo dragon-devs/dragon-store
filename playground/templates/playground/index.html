@@ -1,37 +1,29 @@
 {% load static %}
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>DRH store</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href=" {% static 'styles.css' %}">
-    </head>
-    <body>
-        <ul class='home-page'>
-            <h1>EMPLOYEES</h1>
-            {% if obj %}
-                {% for employee in obj %}
-                    <ul class='person-tab'>
-                        <li>{{ employee.name }}</li> 
-                        <li>{{ employee.gender }}</li>    
-                        <li>{{ employee.age }}</li>
-                        <li>{{ employee.salary }}</li>
-                        <li>{{ employee.position }}</li>    
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static "styles.css" %}">
+    <title>Dragon Store</title>
+</head>
+<body>
+<dev class="home-page">
+    <ul>
+        <h1>EMPLOYEES</h1>
+        {% for employees in obj %}
+            <ul class="person-tab">
+                <li>{{ employees.name.capitalize }}</li>
+                <li>{{ employees.get_gender_display }}</li>
+                <li>{{ employees.age }}</li>
+                <li>{{ employees.salary }}</li>
+                <li>{{ employees.get_position_display }}</li>
+            </ul>
+        {% endfor %}
+    </ul>
+</dev>
 
-                    </ul>
-                {% endfor %}
-            {% else %}
-                <h1>HELLO WORLD</h1>
-            {% endif %}
-
-        </ul>
-        <script src="" async defer></script>
-    </body>
+</body>
 </html>
