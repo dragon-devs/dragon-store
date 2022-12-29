@@ -5,4 +5,4 @@ from playground.models import *
 
 def employees_list(request):
     employee = Employee.objects.all()
-    return render(request, 'playground/index.html', {'obj': list(employee)})
+    return render(request, 'playground/index.html', {'obj': employee})
