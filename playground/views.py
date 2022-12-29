@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from playground.models import * 
+from playground.models import *
+
 
 # Create your views here.
 

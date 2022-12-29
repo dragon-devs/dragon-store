@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ebe227b-2b2b-4603-b623-6fe7667db7d0" name="Changes" comment="new changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhtesting/settings/comman.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/settings/comman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhtesting/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhtesting/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/settings/prod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/playground/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowGit.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/DRH/Documents/GitHub/dragon-store/drhtesting/settings/dev.py",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DRH/Documents/GitHub/dragon-store/drhtesting/settings/dev.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Runserver" type="Python.DjangoServer" factoryName="Django server">
       <module name="dragon-store" />
@@ -75,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1672325111734</updated>
       <workItem from="1672325114172" duration="537000" />
-      <workItem from="1672325671436" duration="3732000" />
+      <workItem from="1672325671436" duration="5708000" />
+      <workItem from="1672348142939" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="new changes">
       <created>1672329293092</created>

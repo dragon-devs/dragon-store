@@ -2,7 +2,9 @@ from .comman import *
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+SECRET_KEY = 'django-insecure-hf88ovdliw1$#!dqsu2j24m60%2=+frf(6&0wtkn=hrq%4sii$'
 
 ALLOWED_HOSTS = ['dragontesting01.pythonanywhere.com']
 
