@@ -1,0 +1,29 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static "styles.css" %}">
+    <title>Employees</title>
+</head>
+<body>
+<dev class="home-page">
+    <ul>
+        <h1>EMPLOYEES</h1>
+        {% for employees in obj %}
+            <ul class="person-tab">
+                <li>{{ employees.name.capitalize }}</li>
+                <li>{{ employees.get_gender_display }}</li>
+                <li>{{ employees.age }}</li>
+                <li>{{ employees.salary }}</li>
+                <li>{{ employees.get_position_display }}</li>
+            </ul>
+        {% endfor %}
+    </ul>
+</dev>
+
+</body>
+</html>

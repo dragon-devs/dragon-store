@@ -1,0 +1,33 @@
+body{
+    background-color: #0a0d25;
+    color: aquamarine;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+ul.navbar-links{
+    background-color: #115682;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.body-style{
+    padding: 10px;
+    margin: 20px;
+}

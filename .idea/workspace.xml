@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ebe227b-2b2b-4603-b623-6fe7667db7d0" name="Changes" comment="new changes">
+    <list default="true" id="8ebe227b-2b2b-4603-b623-6fe7667db7d0" name="Changes" comment="css update">
+      <change afterPath="$PROJECT_DIR$/playground/static/index_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/templates/playground/employees.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhtesting/settings/comman.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/settings/comman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhtesting/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drhtesting/settings/prod.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/settings/prod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/playground/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drhtesting/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drhtesting/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/templates/playground/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/playground/templates/playground/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/playground/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
     &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/DRH/Documents/GitHub/dragon-store/drhtesting/settings/dev.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
   <component name="RunManager">
@@ -81,7 +82,8 @@
       <updated>1672325111734</updated>
       <workItem from="1672325114172" duration="537000" />
       <workItem from="1672325671436" duration="5708000" />
-      <workItem from="1672348142939" duration="1394000" />
+      <workItem from="1672348142939" duration="2822000" />
+      <workItem from="1672358058123" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="new changes">
       <created>1672329293092</created>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672329293092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="css update">
+      <created>1672350023867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672350023867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
+    <MESSAGE value="css update" />
+    <option name="LAST_COMMIT_MESSAGE" value="css update" />
   </component>
 </project>
